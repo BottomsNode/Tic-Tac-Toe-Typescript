@@ -1,0 +1,54 @@
+table {
+    padding: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* td css */
+td {
+    border: 2px solid black;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+}
+
+/* game heading */
+.game_title {
+    text-align: center;
+    color: crimson;
+}
+
+#reset {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;    
+}
+
+.button_reset:hover,
+.button_reset:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.button_reset:active {
+    opacity: .5;
+}

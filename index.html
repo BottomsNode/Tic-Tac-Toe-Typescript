@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="ttt_style.css">
+    <script src="ttt_script.js"></script>
+</head>
+
+<!-- <body onload="myOnLoadFun()"> -->
+
+<body>
+
+    <table>
+
+        <h1 class="game_title">Tic Tac Toe</h1>
+        <h2 id="info_id" class="game_title">Get Ready..!</h2>
+        <button id="reset" class="button_reset" type="reset" onclick="reload()">RESET</button>
+        
+        <!-- Row One -->
+        <tr>
+            <td>
+                <button type="button" class="block" id="1" onclick="col_click(this)"></button>
+            </td>
+
+            <td>
+                <button type="button" class="block" id="2" onclick="col_click(this)"></button>
+            </td>
+            <td>
+                <button type="button" class="block" id="3" onclick="col_click(this)"></button>
+            </td>
+        </tr>
+
+        <!-- Row Two -->
+        <tr>
+            <td>
+                <button type="button" class="block" id="4" onclick="col_click(this)"></button>
+            </td>
+
+            <td>
+                <button type="button" class="block" id="5" onclick="col_click(this)"></button>
+            </td>
+
+            <td>
+                <button type="button" class="block" id="6" onclick="col_click(this)"></button>
+            </td>
+        </tr>
+
+        <!-- Row Three -->
+        <tr>
+            <td>
+                <button type="button" class="block" id="7" onclick="col_click(this)"></button>
+            </td>
+            <td>
+                <button type="button" class="block" id="8" onclick="col_click(this)"></button>
+            </td>
+            <td>
+                <button type="button" class="block" id="9" onclick="col_click(this)"></button>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
